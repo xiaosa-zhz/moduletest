@@ -2,7 +2,7 @@ add_rules("mode.debug", "mode.release")
 add_includedirs("includes")
 set_languages("c++23")
 set_encodings("utf-8")
--- add_rules("plugin.compile_commands.autoupdate", {outputdir = ".vscode"})
+add_rules("plugin.compile_commands.autoupdate", {outputdir = ".vscode"})
 
 target("llvm")
     set_kind("binary")
